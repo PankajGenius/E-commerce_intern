@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling for the main content area */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Style each product container */
+.product {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-images img {
+    max-width: 200%;
+    max-height: 350px; /* Adjust the height as needed */
+    height: auto;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+/* Styling for the "Add to Cart" button */
+.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the shopping cart view */
+#cart-view {
+    display: none;
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+}
+
+.cart-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#cart-total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Add more CSS for cart styling, hover effects, and other design preferences */
